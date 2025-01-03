@@ -12,9 +12,11 @@
   // 默认值已经包含了大多数文件类型了，故不需要再特殊配制
   // "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown"],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
+  "css.lint.unknownAtRules": "ignore",
   "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
   "cSpell.words": [
     "appleboy",
     "Buildx",
@@ -22,16 +24,24 @@
     "commonmark",
     "DOCKERHUB",
     "endregion",
+    "eventsource",
     "firstkey",
     "GPTAPI",
     "heroicons",
+    "katex",
     "linkify",
+    "logit",
     "micromessenger",
     "nextjs",
     "OPENAI",
     "pnpm",
+    "postversion",
+    "preversion",
     "secondkey",
     "tailwindcss",
+    "wechat",
+    "wxgray",
+    "wxgreen",
     "xcatliu",
     "zeabur"
   ],
